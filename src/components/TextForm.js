@@ -48,16 +48,16 @@ export default function TextForm(props) {
             style={{backgroundColor: props.mode==='dark'?'#0f1e62':'white',color: props.mode==='dark'?'white':'black'}}
           ></textarea>
         </div>
-        <button className="btn btn-primary" onClick={handleUpClick}>
+        <button className="btn btn-primary my-1" onClick={handleUpClick}>
           Convert to upercase
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleDownClick}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleDownClick}>
           Convert to Lowercase
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleCopy}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleCopy}>
           Copy
         </button>
-        <button className="btn btn-primary margen" onClick={handleClearClick}>
+        <button className="btn btn-primary margen my-1" onClick={handleClearClick}>
           Clear
         </button>
         

@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
-// import About from "./components/About";
+import About from "./components/About";
 // import Alert from "./components/Alert";
 import { useState } from "react";
-// import { Route,Routes } from "react-router-dom";
+import { Route,Routes } from "react-router-dom";
 
 
 function App() {
@@ -38,12 +38,12 @@ function App() {
 
 
       <div className="container my-3">
-      <TextForm heading="Text Analyzer." mode={Mode} />
-        {/* <Routes>
+      
+        <Routes>
           <Route path="/" element={<TextForm heading="Text Analyzer." mode={Mode} />}/>
           <Route path="/Home" element={<TextForm heading="Text Analyzer." mode={Mode} />}/>
           <Route path="/about" element={<About/>}/>
-        </Routes> */}
+        </Routes>
         
       </div>
     </>
